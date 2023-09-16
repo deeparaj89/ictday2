@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image : url("bbb.jpg");
+    background-size: cover;
+}
+header{
+    background-color: black;
+}
+.navigation{
+    float: right;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#logo {
+    margin-left: 10%;
+    margin-right:1% ;
+}
+
+.hd
+{
+    padding-top: 150px;padding-left: 60px;
+}
+.hd li
+{
+    list-style-type: square;
+
+}
+/*aside styling ends*/
+
+
+/*login styling starts */
+  
+.side{color:white;
+    font-family: " lucids sans ", "lucids sans  regular" ,"lucids grades", "lucids sans unicode",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+margin :100px;
+/*border:2px solid red;*/
+    float:left;
+}
+
+.side li {
+    padding:2px;
+    list-style-type:square;
+
+}
+
+/*aside styling ends*/
+
+
+/*login styling starts*/
+.my_login{
+    border:2px solid red;
+    float :right;
+    margin-top: 60 px ;
+    background-color:beige;
+    height:15em;
+    padding: 60px;
+    margin-right:20px;
+}
+.my_login h2{
+
+     text-align:center ;
+}
+#logg {
+    background-color: dodgerblue;
+    width: 50%;
+    border:none;
+    height:1.5em;
+}
+/*login styling ends*/
